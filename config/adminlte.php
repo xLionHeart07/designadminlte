@@ -324,20 +324,20 @@ return [
         ],
         ['header' => 'account_settings'],
         [
-            'text' => 'Profile',
+            'text' => 'Admin Dashboard',
             'icon' => 'fas fa-fw fa-user',
             'submenu' => [
                 [
-                    'text' => 'Page 1',
+                    'text' => 'Profile',
                     'url' => 'update',
                 ],
                 [
-                    'text' => 'Page 2',
-                    'url' => '#',
+                    'text' => 'Travel Order',
+                    'url' => 'd1',
                 ],
                 [
-                    'text' => 'Page 3',
-                    'url' => '#',
+                    'text' => 'Leave',
+                    'url' => 'd2',
                 ],
                 [
                     'text' => 'Page 4',
@@ -347,7 +347,7 @@ return [
             ],
         ],
         [
-            'text' => 'change_password',
+            'text' => 'Change Password',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],

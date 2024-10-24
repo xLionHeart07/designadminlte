@@ -275,11 +275,16 @@
 <option value="1">Afghanistan</option>
 <option value="2">Afg</option>
 </select>
+<p>{{-- just for space --}}</p>
+<p>{{-- just for space --}}</p>
 </div>
-<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-  <button class="btn btn-primary me-md-2" type="button">Button</button>
-  <button class="btn btn-primary" type="button">Button</button>
+
+<div class="col-md-12">
+<div class="d-flex justify-content-end">
+  <button class="btn btn-primary col-md-2" type="button">SAVE</button>
 </div>
+</div>
+
 
 
       
